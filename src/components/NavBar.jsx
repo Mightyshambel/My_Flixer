@@ -34,7 +34,7 @@ function NavBar() {
     </div>
       </div>
       <div className="flex justify-center my-36">
-        <input type="email" className="w-7/12 form-input border-2 border-gray-200  px-4 py-5 rounded-full" />
+        <input type="text" placeholder="Search" className="w-7/12 form-input border-2 border-gray-200  px-4 py-5 rounded-full" />
         
       </div>
       
