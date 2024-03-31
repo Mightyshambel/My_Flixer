@@ -1,7 +1,7 @@
 function NavBar() {
   return (
    
-<nav class="bg-blue-900 border-gray-200 dark:bg-gray-900 h-60">
+<nav class=" bg-no-repeat bg-cover h-60 top-0 sticky z-50 border-gray-200 bg-blue-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://myflixerz.to/home" class="flex items-center space-x-3 rtl:space-x-reverse ">
         <img src="myfixer.jpg" class="h-8" alt="Flowbite Logo" />

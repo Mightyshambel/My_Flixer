@@ -7,7 +7,7 @@ export default function Card(props) {
      badgeText="ONLINE"
     }
     return (
-      <div className="flex-shrink-0 ml-10 mr-0 relative ">
+      <div className="flex-shrink-0 ml-10 mr-0 relative  ">
         
         {badgeText && <div className="absolute top-6 m-1 px-2 bg-white rounded-sm font-bold">{badgeText}</div>}
         <img src={`../images/${props.item.coverImg}`} className="py-2  rounded-lg w-11/12 border-radius: 9px; " alt="katie swimming" />
