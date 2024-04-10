@@ -15,7 +15,7 @@ function App() {
       <div>
         <div className="pb-20">  
           <span className="text-2xl px-10">Movies</span>
-          <div className="grid grid-cols-5 ">{Card}</div>
+          <div className="grid grid-cols-6 ">{Card}</div>
         </div>
 
         <span className="text-2xl px-10 py-10"> TV Shows</span>
