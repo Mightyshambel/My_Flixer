@@ -7,9 +7,9 @@ export default function Card(props) {
      badgeText="HD"
     }
     return (
-      <div className="flex-shrink-0 ml-10 mr-0  relative rounded-md  ">
+      <div className={props.darkMode ? "dark bg-gray-800 p-4 mx-auto text-black flex-shrink-0 pl-10 pr-0 relative rounded-md " : "flex-shrink-0 ml-10 mr-0 relative rounded-md bg-white text-black"} >
         
-        {badgeText && <div className="absolute top-6 m-1 px-2 bg-white rounded-sm font-bold">{badgeText}</div>}
+        {badgeText && <div className="absolute top-6 m-1 px-2 bg-white dark:bg-slate-800 dark:text-white  rounded-sm font-bold">{badgeText}</div>}
         <img src={`../images/${props.item.coverImg}`} className="py-2  rounded-lg w-11/12 border-radius: 9px; " alt="katie swimming" />
         
         <div className="flex text-sm ">
