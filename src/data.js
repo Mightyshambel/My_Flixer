@@ -11,7 +11,8 @@ export default [
         },
         screen: "CAM",
         year: 2024,
-        view:"104m"
+        view: "104m",
+        category:"Latest Movies"
     },
     {
         id: 2,
@@ -25,7 +26,8 @@ export default [
         },
         screen: "HD",
         year: 2024,
-        view:"100m"
+        view: "100m",
+        category:"Latest Movies"
     },
     {
         id: 3,
@@ -38,7 +40,8 @@ export default [
         },
         screen: "CAM",
         year: 2020,
-        view:"84m"
+        view: "84m",
+        category:"Latest Movies"
     },{
         id: 4,
         title: "Poor Things",
@@ -50,7 +53,8 @@ export default [
         },
         screen: "HD",
         year: 2018,
-        view:"74m"
+        view: "74m",
+        category:"Latest Movies"
     },{
         id: 5,
         title: "One Love",
@@ -62,7 +66,8 @@ export default [
         },
         screen: "HD",
         year: 2022,
-        view:"124m"
+        view: "124m",
+        category:"Latest Movies"
     },
     ,{
         id: 6,
@@ -88,7 +93,8 @@ export default [
         },
         screen: "HD",
         year: 2022,
-        view:"124m"
+        view: "124m",
+        category:"Latest Movies"
     },
     ,{
         id: 8,
@@ -101,7 +107,8 @@ export default [
         },
         screen: "CAM",
         year: 2022,
-        view:"124m"
+        view: "124m",
+        category:"Latest Movies"
     },
     ,{
         id: 9,
@@ -114,7 +121,8 @@ export default [
         },
         screen: "HD",
         year: 2022,
-        view:"120m"
+        view: "120m",
+        category:'Latest Movies'
     },
     ,{
         id: 10,
@@ -127,7 +135,8 @@ export default [
         },
         screen: "CAM",
         year: 2024,
-        view:"104m"
+        view: "104m",
+        category:'Latest Movies'
     },
     ,{
         id: 11,
@@ -140,7 +149,8 @@ export default [
         },
         screen: "HD",
         year: 2024,
-        view:"104m"
+        view: "104m",
+        category:'Latest Movies'
     },
     ,{
         id: 12,
@@ -153,6 +163,91 @@ export default [
         },
         screen: "CAM",
         year: 2024,
-        view:"104m"
+        view: "104m",
+        category:'Latest Movies'
+    },{
+        id: 13,
+        title: "Maxton Hall",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+            coverImg:"mx.jpeg",
+        stats: {
+            rating: 8.5,
+            reviewCount:10
+        },
+        screen: "CAM",
+        year: 2024,
+        view: "104m",
+        category:'Latest TV Shows'
+    },{
+        id: 14,
+        title: "To the Wonder",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+            coverImg:"t.jpeg",
+        stats: {
+            rating: 8.5,
+            reviewCount:10
+        },
+        screen: "HD",
+        year: 2024,
+        view: "104m",
+        category:'Latest TV Shows'
+    },
+    ,{
+        id: 15,
+        title: "BVB 09",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+            coverImg:"bvb.jpeg",
+        stats: {
+            rating: 8.5,
+            reviewCount:10
+        },
+        screen: "CAM",
+        year: 2024,
+        view: "104m",
+        category:'Latest TV Shows'
+    },
+    ,{
+        id: 16,
+        title: "The Imposter",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+            coverImg:"zi.jpeg",
+        stats: {
+            rating: 4.8,
+            reviewCount:10
+        },
+        screen: "HD",
+        year: 2022,
+        view: "124m",
+        category:'Latest TV Shows'
+    },
+   
+    ,{
+        id: 17,
+        title: "Tell No One",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+            coverImg:"tn.jpeg",
+        stats: {
+            rating: 9.8,
+            reviewCount:10
+        },
+        screen: "HD",
+        year: 2022,
+        view: "120m",
+        category:'Latest TV Shows'
+    },
+    
+    ,{
+        id: 12,
+        title: "X-men 97",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+            coverImg:"xm.jpeg",
+        stats: {
+            rating: 8.5,
+            reviewCount:10
+        },
+        screen: "CAM",
+        year: 2024,
+        view: "104m",
+        category:'Latest TV Shows'
     },
 ]

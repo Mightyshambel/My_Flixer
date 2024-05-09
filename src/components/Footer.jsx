@@ -1,8 +1,8 @@
 // eslint-disable-next-line react/prop-types
 function Footer({darkMode}) {
-    return <div className={darkMode ? "dark bg-gray-900 flex flex-wrap items-center justify-between p-4 mx-auto text-white" : "flex flex-wrap items-center justify-between mx-auto p-4 bg-blue-900"}>
+  return <div className={`max-w-screen flex flex-wrap items-center justify-between pl-32 pr-32  ${darkMode ? "dark bg-gray-900 flex flex-wrap items-center justify-between p-4 text-white" : "flex flex-wrap items-center justify-between mx-auto p-4 bg-blue-900"}`}>
       <a href="https://myflixerz.to/home" className="flex items-center space-x-3 rtl:space-x-reverse ">
-        <img src="myfixer.jpg" className="h-8" alt="Flowbite Logo" />
+        <img src="11.png" className="h-14 w-14 rounded-full" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Popcorn</span>
         </a>
          

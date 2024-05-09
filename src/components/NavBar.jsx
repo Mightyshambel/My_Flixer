@@ -8,7 +8,7 @@ function NavBar({ darkMode, toggleDarkMode }) {
       <nav className={`bg-no-repeat bg-cover h-60 top-0 sticky z-50 border-gray-200  ${darkMode ? 'bg-gray-900  text-white' : 'bg-blue-900'}`}>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://myflixerz.to/home" className="flex items-center space-x-3 rtl:space-x-reverse ">
-            <img src="logo.jpg" className="h-12" alt="Flowbite Logo" />
+            <img src="11.png" className="h-16 w-16 rounded-full" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Popcorn</span>
           </a>
           <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-200 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -51,7 +51,7 @@ function NavBar({ darkMode, toggleDarkMode }) {
           </div>
         
         </div>
-        <div className="flex justify-center my-36 ">
+        <div className="flex justify-center my-28 ">
           <input type="text" placeholder="Search"  className={darkMode ? "dark form-input bg-gray-900 p-20  text-white border-cyan-400 w-7/12   border-2  px-4 py-5 rounded-full focus:border-cyan-500" : " bg-white p-20  w-7/12  form-input border-2  px-4 py-5 rounded-full border-gray-100"} />
         </div>
       
