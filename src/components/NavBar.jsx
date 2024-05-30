@@ -1,10 +1,16 @@
-
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link
+} from 'react-router-dom';
+import Home from './Home';
 // eslint-disable-next-line react/prop-types
 function NavBar({ darkMode, toggleDarkMode }) {
   
     
     return (
-   
+    <Router>
       <nav className={`bg-no-repeat bg-cover h-60 top-0 sticky z-50 border-gray-200  ${darkMode ? 'bg-gray-900  text-white' : 'bg-blue-900'}`}>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://myflixerz.to/home" className="flex items-center space-x-3 rtl:space-x-reverse ">
@@ -55,8 +61,14 @@ function NavBar({ darkMode, toggleDarkMode }) {
           <input type="text" placeholder="Search"  className={darkMode ? "dark form-input bg-gray-900 p-20  text-white border-cyan-400 w-7/12   border-2  px-4 py-5 rounded-full focus:border-cyan-500" : " bg-white p-20  w-7/12  form-input border-2  px-4 py-5 rounded-full border-gray-100"} />
         </div>
       
-      </nav>
-
+        </nav>
+        <Link to="/">Home</Link>
+        <Routes>
+          <Route path="/" element={<Home />} />
+      
+        </Routes>
+      </Router>
+      
     );
   }
 
