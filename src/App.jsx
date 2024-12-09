@@ -1,13 +1,22 @@
 /* eslint-disable react/no-unknown-property */
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
+import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import NavBar from "./components/NavBar.jsx";
 import Desc from "./components/Desc.jsx";
 import Cards from "./components/Cards.jsx";
 import data from "./data.js";
 import Footer from "./components/Footer.jsx";
+import Home from './pages/Home.jsx';
+
+const router = createBrowserRouter([
+  { path:'/home', element : <Home/>}
+])
 
 function App() {
+
+
+
   const [darkMode, setDarkMode] = useState(false);
   const [category, setCategory] = useState('Trending'); // State to manage selected category
 
@@ -32,14 +41,16 @@ function App() {
   ));
 
   return (
-    <div className={darkMode ? 'dark' : ''}>
+    
+    <>
+      <RouterProvider router={router} />
+      <div className={darkMode ? 'dark' : ''}>
       <NavBar
         darkMode={darkMode}
         toggleDarkMode={toggleDarkMode} />
       <Desc
-        darkMode={darkMode}
-      />
-<div className={darkMode ? "dark bg-gray-900 px-12 text-white" : "text-black px-12"}>
+        darkMode={darkMode} />
+      <div className={darkMode ? "dark bg-gray-900 px-12 text-white" : "text-black px-12"}>
         <span className='text-2xl'>Trending</span>
         <div className="grid grid-cols-6 gap-4">
           {TrendingCards}
@@ -58,11 +69,8 @@ function App() {
           {TVShowCards}
         </div>
       </div>
-
-      
-
       <Footer darkMode={darkMode} />
-    </div>
+    </div></>
   );
 }
 

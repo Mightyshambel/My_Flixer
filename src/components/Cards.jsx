@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 export default function Card(props) {
     let badgeText
-  
     if (props.item.screen === "CAM") {
       badgeText="CAM"
     }else if (props.item.screen === "HD"){

@@ -1,10 +1,8 @@
 import {
   BrowserRouter as Router,
-  Route,
-  Routes,
-  Link
+
 } from 'react-router-dom';
-import Home from './Home';
+
 // eslint-disable-next-line react/prop-types
 function NavBar({ darkMode, toggleDarkMode }) {
   
@@ -62,11 +60,8 @@ function NavBar({ darkMode, toggleDarkMode }) {
         </div>
       
         </nav>
-        <Link to="/">Home</Link>
-        <Routes>
-          <Route path="/" element={<Home />} />
       
-        </Routes>
+        
       </Router>
       
     );
